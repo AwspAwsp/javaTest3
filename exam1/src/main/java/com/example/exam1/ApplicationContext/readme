@@ -1,0 +1,10 @@
+创建一个maven管理的springboot项目，在这个项目下面创建一个子项目exam1
+设置自动导入依赖，将需要的依赖添加
+编写application.yml文件，进行连接数据库的设置
+创建一个bean包，包下创建一个file对象类
+创建一个dao包，包下创建一个fileDao类用于操作数据库，流程处理
+创建一个Service包，包下建立一个接口，定义一个方法，再创建一个实现类，实现接口
+创建一个controller包，包下创建对应的控制
+启动Exam1Application就可以看是否执行成功，如果成功向页面返回一个字符串
+另外刚学的springboot,事务还不是太熟悉，编写了内容，但没有执行成功。
+数据库操作仍旧使用jdbc,mybatis还不会
